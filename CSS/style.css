@@ -1,0 +1,191 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0px;
+    padding: 0px;
+    width: 100vw;
+    height: 100vh;
+    background-color: LemonChiffon;
+}
+
+input {
+    padding: 10px;
+}
+
+#div1 {
+    float: left;
+    position: fixed;
+    height: 100vh;
+    width: 50%;
+    margin-right: -700px;
+    background-size: contain;
+    background-image: url(/image/eu.carro.png);
+    background-repeat: no-repeat;
+}
+
+#div2 {
+    float: right;
+    position: relative;
+    height: 100%;
+    width: calc(100% - 649px);
+    margin-right: 8px;
+    background-color: LemonChiffon;
+
+}
+
+#imgWalking {
+    margin-top: 13px;
+    margin-left: 5px;
+    margin-bottom: 0px;
+    width: 694px;
+    height: 100%;
+}
+
+#login,
+#formulario-cadastro {
+    background-color: rgba(255, 255, 255, 0.6);
+    top: 50%;
+    position: relative;
+    float: right;
+    width: 40%;
+    box-shadow: 5px 5px 10px rgb(0, 0, 0);
+    border-radius: 30px;
+    color: black;
+    margin-right: 15rem;
+    padding: 2rem;
+    text-shadow: 0 1px 0 black;
+    transform: translateY(-50%);
+}
+
+h2.entrar {
+    color: grey;
+    text-align: center;
+    margin-top: 40%;
+}
+
+input {
+    display: block;
+    margin: 18px auto;
+    margin-left: -15px;
+    width: 250px;
+    height: 30px;
+    border: 1px black solid;
+    border-radius: 7px;
+}
+
+button {
+    height: 40px;
+    width: 160px;
+    margin-left: 31px;
+    background-color: transparent;
+    border: 3px solid black;
+    border-radius: 10px;
+    font-size: 1.2rem;
+    font-weight: bold;
+    padding: 2px;
+}
+
+button:hover {
+    background-color: #e0ae41;
+    box-shadow: 0px 5px 5px rgb(0, 0, 0);
+    color: aliceblue;
+    cursor: grab;
+    transition: 1s ease-in-out;
+}
+
+button:active {
+    box-shadow: 0px 2px 5px rgb(0, 0, 0);
+    cursor: pointer;
+    transform: translateY(5%);
+    transition: 0.6s ease-in-out;
+
+}
+
+p {
+    margin-top: 15px;
+    text-align: center;
+    font-size: 1.5rem;
+}
+
+p:hover {
+    text-decoration: underline;
+    cursor: pointer;
+}
+
+#ancora-cadastro {
+    color: rgb(red, green, blue);
+    margin-left: 29px;
+}
+
+.blue {
+    text-align: center;
+}
+
+.h1-login {
+    text-align: center;
+}
+
+.div-adicionar {
+    display: flex;
+    width: 100%;
+    margin-left: 32px;
+    align-items: center;
+}
+
+#criar-meta {
+    align-items: center;
+    display: flex;
+}
+
+#h1-adicionar {
+    width: 360px;
+    margin-left: 22px;
+    margin-top: 17px;
+}
+
+#detalhamento {
+    width: 500px;
+    margin-left: 45px;
+}
+
+#btn-salvar {
+    height: 34px;
+    margin-right: 45px;
+    background-color: #D7CCFF;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#tabela-descricao {
+    width: 80%;
+    margin-left: 18px;
+}
+
+#head-table {
+    text-align: center;
+    background-color: #8d8865;
+}
+
+#head-table th {
+    border: 2px black solid;
+    border-radius: 5px;
+}
+
+.btn-apagar {
+    width: 90px;
+    height: 30px;
+}
+
+.btn-editar {
+    width: 90px;
+    height: 30px;
+}
+
+.tr-detalhamento {
+    text-align: center;
+}

@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="/css/style.css">
+</head>
+
+<body>
+    <div id="div1"></div>
+
+    <div id="div2">
+        <form id="formulario-cadastro">
+            <h1 class="blue">Cadastro</h1>
+
+            <div class="input-wrapper">
+                <label for="nome-usuario">Nome</label>
+                <input type="text" name="nome-usuario" id="nome-usuario" class="form-control w-full" required
+                    placeholder="Seu nome">
+            </div>
+
+            <div class="input-wrapper">
+                <label for="email-cadastro">E-mail</label>
+                <input type="email" name="emailCadastro" id="email-cadastro" class="form-control w-full" required
+                    placeholder="E-mail">
+            </div>
+
+            <div class="input-wrapper">
+                <label for="password-cadastro">Senha</label>
+                <input type="password" name="password" id="password-cadastro" class="form-control w-full" required
+                    placeholder="Senha">
+            </div>
+
+            <div class="input-wrapper">
+                <label for="repassword-cadastro">Confirmar Senha</label>
+                <input type="password" id="repassword-cadastro" name="password" class="form-control w-full" required
+                    placeholder="Confirmar senha">
+            </div>
+
+            <input type="submit" value="Cadastrar" id="botao_cadastrar"></input>
+
+
+            <a id="ancora-cadastro" href="login.html">Ir para a página de Login</a>
+        </form>
+
+        <script src="/JavaScript/cadastro.js"></script>
+    </div>
+</body>
+
+</html>

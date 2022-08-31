@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="/CSS/style.css" />
+    <title>Home page</title>
+</head>
+
+<body>
+    <h1 id="h1-adicionar">Meus Recados</h1>
+    <div class="div-adicionar">
+        <form id="criar-meta">
+            <input type="text" id="descricao" class="input-descricao" placeholder="Descrição" required />
+            <input type="text" id="detalhamento" placeholder="Detalhamento" required />
+            <button id="btn-salvar" value="Cadastrar">Cadastrar</button>
+        </form>
+    </div>
+
+    <table id="tabela-descricao">
+        <thead>
+            <tr id="head-table">
+                <th class="col1">#</th>
+                <th class="col2">Descrição</th>
+                <th class="col3">Detalhamento</th>
+                <th class="col4">Ação</th>
+            </tr>
+        </thead>
+
+        <tbody id="tbodyMetas"></tbody>
+    </table>
+
+    <script src="/JavaScript/home.js"></script>
+</body>
+
+</html>
